@@ -10,7 +10,7 @@ function roundNumber(number){
 }
 
 
-/* Celcius to Fahrenheit and Kelvin */
+
 celsiusInput.addEventListener('input', function(){
     let cTemp = parseFloat(celsiusInput.value)
     let fTemp = (cTemp*(9/5)) + 32
@@ -21,7 +21,7 @@ celsiusInput.addEventListener('input', function(){
 })
 
 
-/* Fahrenheit to Celcius and Kelvin */
+
 fahrenheitInput.addEventListener('input', function(){
     let fTemp = parseFloat(fahrenheitInput.value)
     let cTemp = (fTemp - 32) * (5/9)
@@ -31,7 +31,7 @@ fahrenheitInput.addEventListener('input', function(){
     kelvinInput.value = roundNumber(kTemp)
 })
 
-/* Kelvin to Celcius and Fahrenheit */
+
 kelvinInput.addEventListener('input', function(){
     let kTemp = parseFloat(kelvinInput.value)
     let cTemp = kTemp - 273.15
